@@ -1,0 +1,13 @@
+
+
+
+
+@import url("../node_modules/animate.css/animate.min.css");
+@import url("../node_modules/sweetalert2/dist/sweetalert2.min.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swal2-confirm{
+  @apply bg-red-900 text-slate-100 hover:bg-green-300
+}
